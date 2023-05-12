@@ -1,0 +1,41 @@
+section {
+    height: 800px;
+    background: #fafafa;
+    border: 1px solid #999;
+    display: flex;
+    *flex-direction: column;
+    *flex-wrap: wrap;
+    *flex-flow: wrap row;
+    *justify-content: center;
+    *align-items: center;
+    *align-content: flex-start;
+}
+
+section div {
+    background: rgb(156, 92, 215);
+    margin: 5px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    padding-top: 80px;
+    box-sizing: border-box;
+}
+
+.hije0 {
+    background: chocolate;
+    order: 2;
+    flex-basis: 70%;
+}
+
+.hije1 {
+    background: crimson;
+    order: 3;
+    flex-basis: 20%;
+}
+
+.hije2 {
+    order: 1;
+    flex-basis: 20%;
+}
